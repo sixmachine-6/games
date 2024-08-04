@@ -5,7 +5,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/hangman" element={<Hangman />} />
+        <Route path="/" element={<Hangman />} />
       </Routes>
     </BrowserRouter>
   );
